@@ -20,7 +20,7 @@ As the assigned system administrator, I personally executed all required steps o
 
 | Tool/Command              | Purpose                                        |
 | ------------------------- | ---------------------------------------------- |
-| `useradd`, `passwd`       | User creation and password assignment          |
+| `adduser`, `passwd`       | User creation and password assignment          |
 | `chage`                   | Force password change at first login           |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration |
 | `setfacl`, `getfacl`      | Fine-grained access control                    |
