@@ -37,3 +37,5 @@ As the assigned system administrator, I personally executed all required steps o
     (For each user, I was prompted to enter a password. I set a temporary password for both users, knowing they would be required to change it upon their first login.
 
     During the process, I was asked to provide optional details such as Full Name, Room Number, etc. I chose to leave these fields blank by pressing Enter to skip them.)
+
+![Bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/bertram.PNG)
