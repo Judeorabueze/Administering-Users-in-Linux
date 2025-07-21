@@ -1,1 +1,1 @@
-# Administering-Users-in-Linux
+# Administering Users in Linux
