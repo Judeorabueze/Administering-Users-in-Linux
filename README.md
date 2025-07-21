@@ -32,4 +32,4 @@ As the assigned system administrator, I personally executed all required steps o
 ### 1. User Creation
 - #### Add the Users Bertram and Erlich
   - I added the user <b>Bertram</b> using the command - `sudo adduser Bertram`
-  - The user </b>Erlich</b> was added using - `sudo adduser Erlich`
+  - The user <b>Erlich</b> was added using - `sudo adduser Erlich`
