@@ -31,5 +31,9 @@ As the assigned system administrator, I personally executed all required steps o
 
 ### 1. User Creation
 - #### Add the Users Bertram and Erlich
-  - I added the user <b>Bertram</b> using the command - `sudo adduser Bertram`
-  - The user <b>Erlich</b> was added using - `sudo adduser Erlich`
+  - I added the user <b>Bertram</b> using the command - `sudo adduser bertram`
+  - The user <b>Erlich</b> was added using - `sudo adduser erlich`
+
+    (For each user, I was prompted to enter a password. I set a temporary password for both users, knowing they would be required to change it upon their first login.
+
+    During the process, I was asked to provide optional details such as Full Name, Room Number, etc. I chose to leave these fields blank by pressing Enter to skip them.)
