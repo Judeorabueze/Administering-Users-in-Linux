@@ -38,4 +38,4 @@ As the assigned system administrator, I personally executed all required steps o
 
     During the process, I was asked to provide optional details such as Full Name, Room Number, etc. I chose to leave these fields blank by pressing Enter to skip them.)
 
-![Bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/bertram.PNG)
+![Bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/bertram%202.PNG)
