@@ -9,7 +9,7 @@ This project was carried out in direct response to Help Desk Ticket #4561290, wh
 As the assigned system administrator, I personally executed all required steps on a virtualized Ubuntu 22.04 LTS environment. The project aimed to demonstrate practical skills in user management, permission assignment, and securing sensitive directories in a multi-user environment. The actions performed ensured that only the specified users — Bertram and Erlich — had access to a newly created folder, while all other system users were restricted, fulfilling the principle of least privilege.
 
 ## Objectives
-- Create two new user accounts: <b>bertram</b> and <b>erlich</b>
+- Create two new user accounts: <b>Bertram</b> and <b>Erlich</b>
 - Assign temporary passwords and enforce password change on first login
 - Create a secure folder <b>Confidential</b> in the root directory
 - Ensure root remains the folder owner with full rights
@@ -26,3 +26,10 @@ As the assigned system administrator, I personally executed all required steps o
 | `setfacl`, `getfacl`      | Fine-grained access control                    |
 | `sudo`                    | Privileged command execution                   |
 | Ubuntu 22.04 LTS          | OS environment                                 |
+
+## Project Approach
+
+### 1. User Creation
+- #### Add the Users Bertram and Erlich
+  - I added the user <b>Bertram</b> using the command - `sudo adduser Bertram`
+  - The user </b>Erlich</b> was added using - `sudo adduser Erlich`
