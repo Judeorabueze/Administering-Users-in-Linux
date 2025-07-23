@@ -44,3 +44,6 @@ As the assigned system administrator, I personally executed all required steps o
 - Expired Bertram's password using - `sudo passwd --expire bertram`
 - Expired Erlich's password using - `sudo passwd --expire erlich`
 
+![expire password](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/password%20expire.PNG)
+
+
