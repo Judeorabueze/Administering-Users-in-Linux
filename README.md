@@ -26,8 +26,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
 | `addgroup` , `chgrp`      | Add group , Change group                            |
-| `usermod -a -G`           | Add user to a group                                 |
-| `setfacl`, `getfacl`      | Fine-grained access control                         |    
+| `usermod -a -G`           | Add user to a group                                 |  
 | `sudo`                    | Privileged command execution                        |
 | Ubuntu 22.04 LTS          | OS environment                                      |
 
@@ -88,5 +87,8 @@ The screenshot above shows that:
 
 From the screenshot above, the group was successfully changed to <b>congroup</b>.
 
-<b> To fix / set the group permissions such that the file owner has full permission
-- Using number 
+- Set the group permissions such that both the file owner and the users (bertram and erlich) now in congroup group have full permissions while other have no permission
+  - Enter `sudo chmod 770 Confidential`
+  - And `ls -l` to confirm the updated permissions.
+ 
+    
