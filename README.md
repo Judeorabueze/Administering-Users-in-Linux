@@ -46,4 +46,7 @@ As the assigned system administrator, I personally executed all required steps o
 
 ![expire password](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/password%20expire.PNG)
 
-
+To check if the above actions were successfull:
+- I switched the users (Bertram and Erlich).
+  - Entered `su bertram `to switch to user <b>bertram</b>
+  
