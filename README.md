@@ -91,4 +91,6 @@ From the screenshot above, the group was successfully changed to <b>congroup</b>
   - Enter `sudo chmod 770 Confidential`
   - And `ls -l` to confirm the updated permissions.
  
-    
+![final](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/Final.PNG)
+
+From the above screenshot, the permissions have been successfully set and the ticket resolved.
