@@ -25,6 +25,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `su`                      | Switch user                                         |
 | `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
+| `addgroup`                | Add group                                           |
 | `setfacl`, `getfacl`      | Fine-grained access control                         |    
 | `sudo`                    | Privileged command execution                        |
 | Ubuntu 22.04 LTS          | OS environment                                      |
@@ -72,6 +73,9 @@ As the assigned system administrator, I personally executed all required steps o
 
 The screenshot above shows that:
   - <b>Confidential</b> file type is <b>directory</b> (see <b>d</b>rwx ...)
-  - File ownership was <b>root</b> with read (r), write (w) and execute (x) permissions. (See the first set of permission - <b>rwx</b>)
+  - File ownership was <b>root</b> with <b>full permission</b> - read (r), write (w) and execute (x) permissions. (See the first set of permission - <b>rwx</b>)
   - Permissions set for group (root) - read (r) and execute (x) (See the second set of permissions - <b>r_x</b>). The group has no permission to <b>write</b> in the file.
   - Permission for everyone or others - read (r) and execute (x) (See the third set of permissions - <b>r_x</b>). Others have no permission to <b>write</b> in the file.
+
+### 5 Fix Users (bertram and erlich) Permissions
+- Added a new group named <b>"congroup"</b> using `sudo addgroup congroup`
