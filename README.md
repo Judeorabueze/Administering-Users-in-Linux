@@ -94,3 +94,14 @@ From the screenshot above, the group was successfully changed to <b>congroup</b>
 ![final](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/Final.PNG)
 
 From the above screenshot, the permissions have been successfully set and the ticket resolved.
+
+## Lessons Learnt
+
+- Applied practical knowledge of Linux user and file permission management using tools like `chmod, chown, and passwd --expire`.
+- Implemented Access Control Lists (ACLs) for fine-grained permission control, extending beyond basic user/group modes.
+- Enforced the principle of least privilege to ensure secure and restricted access across users and directories.
+- Strengthened skills in user lifecycle management, including secure account setup and password policy enforcement.
+- Gained hands-on experience applying cybersecurity principles in a multi-user Linux environment.
+
+## Conclusion
+This project provided a hands-on opportunity to demonstrate my ability to configure and manage file permissions, user accounts, and access control policies in a Linux environment. By implementing ACLs and enforcing security standards, I showcased how real-world system administration tasks can align with cybersecurity best practices. This experience further solidifies my transition from physical security into technical security, preparing me for more advanced roles in system and network security.
