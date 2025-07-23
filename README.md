@@ -18,14 +18,14 @@ As the assigned system administrator, I personally executed all required steps o
 
 ## Tools and Technologies Used
 
-| Tool/Command              | Purpose                                        |
-| ------------------------- | ---------------------------------------------- |
-| `adduser`, `passwd`       | User creation and password assignment          |
-| `chage`                   | Force password change at first login           |
-| `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration |
-| `setfacl`, `getfacl`      | Fine-grained access control                    |
-| `sudo`                    | Privileged command execution                   |
-| Ubuntu 22.04 LTS          | OS environment                                 |
+| Tool/Command              | Purpose                                             |
+| ------------------------- | ----------------------------------------------      |
+| `adduser`, `passwd`       | User creation and password assignment               |
+| `passwrd --expire`        | Expire password and force change at first login     |
+| `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
+| `setfacl`, `getfacl`      | Fine-grained access control                         |    
+| `sudo`                    | Privileged command execution                        |
+| Ubuntu 22.04 LTS          | OS environment                                      |
 
 ## Project Approach
 
@@ -40,17 +40,20 @@ As the assigned system administrator, I personally executed all required steps o
 
 ![Bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/bertram%202.PNG)
 
-### 2. Expire the users Passwords (Force Password Change on First Login)
+### 2. Enforce Password Change at First Login
 - Expired Bertram's password using - `sudo passwd --expire bertram`
 - Expired Erlich's password using - `sudo passwd --expire erlich`
 
 ![expire password](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/password%20expire.PNG)
 
-To check if the above actions were successfull:
+#### To check if the above actions were successfull:
 - I switched the users (Bertram and Erlich).
   - Entered `su bertram `to switch to user <b>bertram</b>
   - Entered `su erlich `to switch to user <b>erlich</b>
   
   ![su bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/su%20bertram.PNG)
 
-  
+  From the screenshot above, the forced password change was sucessfully enforced
+
+### 3. Create a Folder "Confidential' in the Root Directory
+- Entered sudo mkdir Confidential
