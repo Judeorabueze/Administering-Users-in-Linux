@@ -25,7 +25,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `su`                      | Switch user                                         |
 | `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
-| `addgroup` , chgrp        | Add group , Change group                            |
+| `addgroup` , `chgrp`      | Add group , Change group                            |
 | `usermod -a -G`           | Add user to a group                                 |
 | `setfacl`, `getfacl`      | Fine-grained access control                         |    
 | `sudo`                    | Privileged command execution                        |
@@ -86,4 +86,7 @@ The screenshot above shows that:
 
 ![change group](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/change%20group.PNG)
 
+From the screenshot above, the group was successfully changed to <b>congroup</b>.
 
+<b> To fix / set the group permissions such that the file owner has full permission
+- Using number 
