@@ -80,6 +80,6 @@ The screenshot above shows that:
 
 ### 5 Fix Users (bertram and erlich) Permissions
 - Added a new group named <b>"congroup"</b> using `sudo addgroup congroup`
-- Added the users (bertram and erlich) to the congroup- `sudo usermod -a -G congroup bertram` and `sudo usermod -a -G erlich`
-- Changed the file group from <b>root</b> to <b>congroup</b> - `sudo chgrp congroup Confidential`
+- Added the users (bertram and erlich) to the <b>"congroup"</b>- `sudo usermod -a -G congroup bertram` and `sudo usermod -a -G erlich`
+- Changed the file group from <b>"root"</b> to <b>"congroup"</b> - `sudo chgrp congroup Confidential`
 - Used `ls -l` to check ownerships and permissions
