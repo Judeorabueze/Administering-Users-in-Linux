@@ -49,4 +49,6 @@ As the assigned system administrator, I personally executed all required steps o
 To check if the above actions were successfull:
 - I switched the users (Bertram and Erlich).
   - Entered `su bertram `to switch to user <b>bertram</b>
+  - Entered `su erlich `to switch to user <b>erlich</b>
+  
   
