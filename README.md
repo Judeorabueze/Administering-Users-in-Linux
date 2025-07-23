@@ -22,6 +22,8 @@ As the assigned system administrator, I personally executed all required steps o
 | ------------------------- | ----------------------------------------------      |
 | `adduser`, `passwd`       | User creation and password assignment               |
 | `passwrd --expire`        | Expire password and force change at first login     |
+| `su`                      | Switch user                                         |
+| `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
 | `setfacl`, `getfacl`      | Fine-grained access control                         |    
 | `sudo`                    | Privileged command execution                        |
@@ -56,4 +58,5 @@ As the assigned system administrator, I personally executed all required steps o
   From the screenshot above, the forced password change was sucessfully enforced
 
 ### 3. Create a Folder "Confidential' in the Root Directory
-- Entered sudo mkdir Confidential
+- Entered `sudo mkdir Confidential`
+
