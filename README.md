@@ -68,4 +68,10 @@ As the assigned system administrator, I personally executed all required steps o
 ### 4. Check and Set Folder Ownership and Permissions
 - Entered `ls -l` to display list of files, folders, and their respective ownerships and permissions
 
+![ls -l](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/ls-l.PNG)
 
+The screenshot above shows that:
+  - <b>Confidential</b> file type is <b>directory</b> (see <b>d</b>rwx ...)
+  - File ownership was <b>root</b> with read (r), write (w) and execute (x) permissions. (See the first set of permission - <b>rwx</b>)
+  - Permissions set for group (root) - read (r) and execute (x) (See the second set of permissions - <b>r_x</b>). The group has no access to <b>write</b> in the file.
+  - Permission for everyone or others - read (r) and execute (x) (See the third set of permissions - <b>r_x</b>). Others have no access to <b>write</b> in the file.
