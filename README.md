@@ -26,6 +26,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
 | `addgroup`                | Add group                                           |
+| `usermod -a -G`           | Add user to a group                                 |
 | `setfacl`, `getfacl`      | Fine-grained access control                         |    
 | `sudo`                    | Privileged command execution                        |
 | Ubuntu 22.04 LTS          | OS environment                                      |
@@ -79,3 +80,6 @@ The screenshot above shows that:
 
 ### 5 Fix Users (bertram and erlich) Permissions
 - Added a new group named <b>"congroup"</b> using `sudo addgroup congroup`
+- Added the users (bertram and erlich) to the congroup- `sudo usermod -a -G congroup bertram` and `sudo usermod -a -G erlich`
+- Changed the file group from <b>root</b> to <b>congroup</b> - `sudo chgrp congroup Confidential`
+- Used `ls -l` to check ownerships and permissions
