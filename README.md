@@ -41,4 +41,6 @@ As the assigned system administrator, I personally executed all required steps o
 ![Bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/bertram%202.PNG)
 
 ### 2. Expire the users Passwords (Force Password Change on First Login)
+- Expired Bertram's password using - `sudo passwd --expire bertram`
+- Expired Erlich's password using - `sudo passwd --expire erlich`
 
