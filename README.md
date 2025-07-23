@@ -59,4 +59,13 @@ As the assigned system administrator, I personally executed all required steps o
 
 ### 3. Create a Folder "Confidential' in the Root Directory
 - Entered `sudo mkdir Confidential`
+- Used `ls` to list the content of the root directory
+  
+![confidential](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/confidential%20directory.PNG)
+
+(From the screenshot above, the folder <b>"Confidential"</b> was successfully created)
+
+### 4. Check and Set Folder Ownership and Permissions
+- Entered `ls -l` to display list of files, folders, and their respective ownerships and permissions
+
 
