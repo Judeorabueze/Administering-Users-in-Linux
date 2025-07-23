@@ -83,3 +83,7 @@ The screenshot above shows that:
 - Added the users (bertram and erlich) to the <b>"congroup"</b>- `sudo usermod -a -G congroup bertram` and `sudo usermod -a -G erlich`
 - Changed the file group from <b>"root"</b> to <b>"congroup"</b> - `sudo chgrp congroup Confidential`
 - Used `ls -l` to check ownerships and permissions
+
+![change group](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/change%20group.PNG)
+
+
