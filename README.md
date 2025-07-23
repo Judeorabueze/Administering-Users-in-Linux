@@ -25,7 +25,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `su`                      | Switch user                                         |
 | `ls`                      | List contents of a directory                        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
-| `addgroup`                | Add group                                           |
+| `addgroup` , chgrp        | Add group , Change group                            |
 | `usermod -a -G`           | Add user to a group                                 |
 | `setfacl`, `getfacl`      | Fine-grained access control                         |    
 | `sudo`                    | Privileged command execution                        |
