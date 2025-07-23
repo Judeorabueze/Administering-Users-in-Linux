@@ -77,7 +77,7 @@ The screenshot above shows that:
   - Permissions set for <b>group (root)</b> - read (r) and execute (x) (See the second set of permissions - <b>r_x</b>). The group has no permission to <b>write</b> in the file.
   - Permission for everyone or others - read (r) and execute (x) (See the third set of permissions - <b>r_x</b>). <b>Others</b> have no permission to <b>write</b> in the file.
 
-### 5 Fix Users (bertram and erlich) Permissions
+### 5. Fix Users (bertram and erlich) Permissions
 - Added a new group named <b>"congroup"</b> using `sudo addgroup congroup`
 - Added the users (bertram and erlich) to the <b>"congroup"</b>- `sudo usermod -a -G congroup bertram` and `sudo usermod -a -G erlich`
 - Changed the file group from <b>"root"</b> to <b>"congroup"</b> - `sudo chgrp congroup Confidential`
@@ -104,4 +104,5 @@ From the above screenshot, the permissions have been successfully set and the ti
 - Gained hands-on experience applying cybersecurity principles in a multi-user Linux environment.
 
 ## Conclusion
+
 This project provided a hands-on opportunity to demonstrate my ability to configure and manage file permissions, user accounts, and access control policies in a Linux environment. By implementing ACLs and enforcing security standards, I showcased how real-world system administration tasks can align with cybersecurity best practices. This experience further solidifies my transition from physical security into technical security, preparing me for more advanced roles in system and network security.
