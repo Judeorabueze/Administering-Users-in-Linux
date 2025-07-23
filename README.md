@@ -23,7 +23,7 @@ As the assigned system administrator, I personally executed all required steps o
 | `adduser`, `passwd`       | User creation and password assignment               |
 | `passwrd --expire`        | Expire password and force change at first login     |
 | `su`                      | Switch user                                         |
-| `ls`                      | List contents of a directory                        |
+| `ls -l`                   | List contents of a directory and permissions        |
 | `mkdir`, `chown`, `chmod` | Directory creation and ownership configuration      |
 | `addgroup` , `chgrp`      | Add group , Change group                            |
 | `usermod -a -G`           | Add user to a group                                 |  
