@@ -51,4 +51,6 @@ To check if the above actions were successfull:
   - Entered `su bertram `to switch to user <b>bertram</b>
   - Entered `su erlich `to switch to user <b>erlich</b>
   
+  ![su bertram](https://github.com/Judeorabueze/Administering-Users-in-Linux/blob/main/su%20bertram.PNG)
+
   
